@@ -20,3 +20,10 @@ fields:
 - type: text
   name: type
   label: type
+- name: author
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Author
